@@ -249,15 +249,20 @@ export class UpdatedemographicComponent implements OnInit, OnDestroy {
   
   }
 
-
   getUserInfo() {
     this.dataStorageService
       .getUserInfo('update-demographics')
       .subscribe((response) => {
         if (response["response"]) {
           this.userInfo = response["response"];
-          this.userInfo['fullName'].forEach(item=>{
-            this.getUserPerfLang.indexOf(item.language) === -1 ? this.getUserPerfLang.push(item.language) : ''
+          Object.keys(this.userInfo).forEach(item =>{
+            if(typeof this.userInfo[item] !== 'string' && this.userInfo[item].length){
+              if(this.getUserPerfLang.length){
+                this.userInfo[item].forEach(eachItem=>{
+                  this.getUserPerfLang.indexOf(eachItem.language) === -1 ? this.getUserPerfLang.push(eachItem.language) : ''
+                })
+              }
+            }
           })
           UpdatedemographicComponent.actualData = response["response"];
           this.buildData()

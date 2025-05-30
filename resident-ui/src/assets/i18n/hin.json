@@ -267,6 +267,10 @@
             "ID_MANAGEMENT_REQUEST": {
                 "serviceType": "ID प्रबंधन अनुरोध",
                 "checked": false
+            },
+            "DATA_SHARE_REQUEST": {
+                "serviceType": "डेटा साझा करने का अनुरोध",Add commentMore actions
+                "checked": false
             }
         },
         "statusTypeFilter": {

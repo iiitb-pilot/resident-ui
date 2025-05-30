@@ -267,6 +267,10 @@
             "ID_MANAGEMENT_REQUEST": {
                 "serviceType": "Solicitud de gestión de ID",
                 "checked": false
+            },
+            "DATA_SHARE_REQUEST": {
+                "serviceType": "Solicitud de compartición de datos",Add commentMore actions
+                "checked": false
             }
         },
         "statusTypeFilter": {

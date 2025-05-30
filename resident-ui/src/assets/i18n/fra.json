@@ -268,7 +268,7 @@
                 "serviceType": "Demande de gestion de l'identifiant",
                 "checked": false
             },
-            "DATA_SHARE_REQUEST": {Add commentMore actions
+            "DATA_SHARE_REQUEST": {
                 "serviceType": "Demande de partage de données",
                 "checked": false
             }

@@ -270,7 +270,7 @@
             },
              "DATA_SHARE_REQUEST": {
                 "serviceType": "Data Share Request",
-                "checked": falseAdd commentMore actions
+                "checked": false
             }
         },
         "statusTypeFilter": {

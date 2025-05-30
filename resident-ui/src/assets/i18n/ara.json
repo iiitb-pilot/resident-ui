@@ -268,7 +268,7 @@
                 "serviceType": "طلب إدارة المعرف",
                 "checked": false
             },
-            "DATA_SHARE_REQUEST": {Add commentMore actions
+            "DATA_SHARE_REQUEST": {
                 "serviceType": "طلب مشاركة البيانات",
                 "checked": false
             }

@@ -267,6 +267,10 @@
             "ID_MANAGEMENT_REQUEST": {
                 "serviceType": "طلب إدارة المعرف",
                 "checked": false
+            },
+            "DATA_SHARE_REQUEST": {Add commentMore actions
+                "serviceType": "طلب مشاركة البيانات",
+                "checked": false
             }
         },
         "statusTypeFilter": {

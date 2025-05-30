@@ -267,6 +267,10 @@
             "ID_MANAGEMENT_REQUEST": {
                 "serviceType": "Demande de gestion de l'identifiant",
                 "checked": false
+            },
+            "DATA_SHARE_REQUEST": {Add commentMore actions
+                "serviceType": "Demande de partage de données",
+                "checked": false
             }
         },
         "statusTypeFilter": {

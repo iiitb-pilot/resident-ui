@@ -48,6 +48,13 @@
                     "auditEventId": "ADM-004"
                 },
                 {
+                    "displayName": "Share My Data",
+                    "icon": "assets/images/sharewithpartner.png",
+                    "route": "uinservices/sharewithpartner",
+                    "description": " Residents can choose the data to be shared with any of the registered partners to avail various third party services.",
+                    "auditEventId": "ADM-004"
+                },
+                {
                     "displayName": "Update My Data",
                     "icon": "assets/images/updatedemographic.png",
                     "route": "uinservices/updatedemographic",
@@ -266,6 +273,10 @@
             },
             "ID_MANAGEMENT_REQUEST": {
                 "serviceType": "ID Management Request",
+                "checked": false
+            },
+            "DATA_SHARE_REQUEST": {
+                "serviceType": "Data Share Request",
                 "checked": false
             }
         },

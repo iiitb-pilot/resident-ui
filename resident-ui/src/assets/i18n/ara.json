@@ -48,6 +48,13 @@
                     "auditEventId": "ADM-004"
                 },
                 {
+                    "displayName": "مشاركة بياناتي",
+                    "icon": "assets/images/sharewithpartner.png",
+                    "route": "uinservices/sharewithpartner",
+                    "description": "يمكن للمقيمين اختيار البيانات المراد مشاركتها مع أي من الشركاء المسجلين للاستفادة من مختلف الخدمات من الطرف الثالث.",
+                    "auditEventId": "ADM-004"
+                },
+                {
                     "displayName": "تحديث بياناتي",
                     "icon": "assets/images/updatedemographic.png",
                     "route": "uinservices/updatedemographic",
@@ -266,6 +273,10 @@
             },
             "ID_MANAGEMENT_REQUEST": {
                 "serviceType": "طلب إدارة المعرف",
+                "checked": false
+            },
+            "DATA_SHARE_REQUEST": {
+                "serviceType": "طلب مشاركة البيانات",
                 "checked": false
             }
         },

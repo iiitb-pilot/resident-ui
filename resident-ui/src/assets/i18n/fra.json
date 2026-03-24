@@ -47,6 +47,13 @@
                     "description": "Les résidents peuvent sélectionner les données à ajouter à leur justificatif d'identité. Ils peuvent également prévisualiser les données choisies et les télécharger.",
                     "auditEventId": "ADM-004"
                 },
+                 {
+                    "displayName": "Partager mes données",
+                    "icon": "assets/images/sharewithpartner.png",
+                    "route": "uinservices/sharewithpartner",
+                    "description": "Les résidents peuvent choisir les données à partager avec l'un des partenaires enregistrés pour bénéficier de divers services tiers.",
+                    "auditEventId": "ADM-004"
+                },
                 {
                     "displayName": "Mettre à jour mes données",
                     "icon": "assets/images/updatedemographic.png",
@@ -266,6 +273,10 @@
             },
             "ID_MANAGEMENT_REQUEST": {
                 "serviceType": "Demande de gestion de l'identifiant",
+                "checked": false
+            },
+            "DATA_SHARE_REQUEST": {
+                "serviceType": "Demande de partage de données",
                 "checked": false
             }
         },

@@ -48,6 +48,13 @@
                     "auditEventId": "ADM-004"
                 },
                 {
+                    "displayName": "मेरा डेटा साझा करें",
+                    "icon": "assets/images/sharewithpartner.png",
+                    "route": "uinservices/sharewithpartner",
+                    "description": "निवासी विभिन्न तृतीय पक्ष सेवाओं का लाभ उठाने के लिए किसी भी पंजीकृत भागीदार के साथ साझा किए जाने वाले डेटा का चयन कर सकते हैं।",
+                    "auditEventId": "ADM-004"
+                },
+                {
                     "displayName": "मेरा डेटा अपडेट करें",
                     "icon": "assets/images/updatedemographic.png",
                     "route": "uinservices/updatedemographic",
@@ -266,6 +273,10 @@
             },
             "ID_MANAGEMENT_REQUEST": {
                 "serviceType": "ID प्रबंधन अनुरोध",
+                "checked": false
+            },
+            "DATA_SHARE_REQUEST": {
+                "serviceType": "डेटा साझा करने का अनुरोध",
                 "checked": false
             }
         },
